@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/52e6f64521534723ebb3543d7ad89e00?family=UniwarsW00-Bold" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/inscricao.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../../index.html" class="header__home">
+            <img src="../img/rafalogo-branco.png" alt="Logo projeto" class="header__image">
+        </a>
+        <ul class="header__lista">
+            <li class="header__item"><a href="aStockCar.html" class="header__link">A Stock Car</a></li>
+            <li class="header__item"><a href="incricao.html" class="header__link">Inscrição</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2 class="container__titulo">Inscrições</h2>
+
+            <h3 class="subtitulo">Como vai funcionar?</h3>
+
+            <p class="container__texto">
+                O doador deverá se responsabilizar pelo transporte e alimentação, a campanha o dará o direito de APENAS um par de ingressos (doador e acompanhante) e a volta rápida para o doador.<br><br>
+                Os ingressos não poderão sofrer alterações de datas, sendo aquelas da etapa designada, os ingressos também não poderão ser transferidos, apenas o doador poderá comparecer e levar um acompanhante. <br><br>
+                Os dois convidados deverão portar os documentos originais com foto e carteira de vacinação da COVID-19 válidos.<br> <br>
+                Será feita a averiguação de autenticidade da doação dentro do prazo da campanha, caso o ganhador não cumprir, estaremos refazendo o sorteio para um novo doador.<br><br>
+            </p>
+
+            <h3 class="subtitulo">Atividades</h3>
+
+            <p class="container__texto">
+                Assim que for sorteado, um de nossos representantes entrará em contato com você para combinar horários e 
+                locais de encontro, assim que obtivermos o cronograma da corrida será repassado para você, NÃO SE ATRASE, 
+                as atividades tem os horários marcados específicos, caso não compareça, perderá a atividade.<br><br>
+            </p>
+
+            <div class="container__btn">
+                <h2 class="texto__btn">Deseja prosseguir?</h2>
+
+                <button class="btn" id="btn"><span class="btn__conteudo">Continuar</span></button>
+            </div>
+
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <span class="modal-btn on" id="hide">&times;</span>
+                    <h2 class="modal-title2" id="title2">Obrigado por participar!</h2>
+                    <h2 class="modal-title on" id="title">Ficha de Inscrição</h2>
+                    <span class="texto-sorteio off" id="sorteiotxt">Este é o seu número de sorteio, Boa Sorte!</span>
+                    <div id="result">
+                        <span class="sorteio"></span>
+                    </div>
+                        
+
+                    <form id="form" method="post" action="">
+                        <fieldset class="formulario">
+                            <div class="lbs nome">
+                                <label>Nome</label>
+                                <input type="text" placeholder="Nome" name="nome" id="nome" required>
+                            </div>
+                            
+                            <div class="lbs sobrenome">
+                                <label>Sobrenome</label>
+                                <input type="text" placeholder="Sobrenome" name="sobrenome" id="sobrenome" required>
+                            </div>
+
+                            <div class="lbs email">
+                                <label>E-mail</label>
+                                <input type="email" placeholder="nome.sobrenome@email.com" name="email" id="email" required>
+                            </div>
+
+                            <div class="lbs nome">
+                                <label>CPF</label>
+                                <input type="text" placeholder="xxx.xxx.xxx-xx" name="cpf" id="cpf" required>
+                            </div>
+                            
+                            <div class="lbs sobrenome">
+                                <label>RG</label>
+                                <input type="text" placeholder="xx.xxx.xxx-x" name="rg" id="rg" required>
+                            </div>
+
+                            <div class="lbs email">
+                                <label>Telefone</label>
+                                <input type="tel" placeholder="(99) 99999-9999" name="telefone" id="telefone" required>
+                            </div>
+
+
+                            <div class="lbs file">
+                                <label>Foto do seu comprovante:</label>
+                                <input type="file" name="file" id="file" accept="image/jpeg, image/png" required>
+                            </div>
+
+                            
+                        </fieldset>
+                    </form>
+                    
+                        <button class="btn-finish" id="btn-finish">Concluir</button>
+
+
+                </div>
+
+                
+                
+            </div>
+        </section>
+    </main>
+</body>
+
+
+<footer>
+
+</footer>
+<script src="../js/inscricao.js"></script>
+</html>

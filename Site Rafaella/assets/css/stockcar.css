@@ -1,0 +1,71 @@
+@import url(//db.onlinewebfonts.com/c/52e6f64521534723ebb3543d7ad89e00?family=UniwarsW00-Bold);
+@font-face {font-family: "UniwarsW00-Bold"; src: url("//db.onlinewebfonts.com/t/52e6f64521534723ebb3543d7ad89e00.eot"); 
+    src: url("//db.onlinewebfonts.com/t/52e6f64521534723ebb3543d7ad89e00.eot?#iefix") 
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/52e6f64521534723ebb3543d7ad89e00.woff2") 
+    format("woff2"), url("//db.onlinewebfonts.com/t/52e6f64521534723ebb3543d7ad89e00.woff") 
+    format("woff"), url("//db.onlinewebfonts.com/t/52e6f64521534723ebb3543d7ad89e00.ttf") 
+    format("truetype"), url("//db.onlinewebfonts.com/t/52e6f64521534723ebb3543d7ad89e00.svg#UniwarsW00-Bold") 
+    format("svg"); 
+}
+
+.container {
+    width: 100%;
+    padding-top: 5vw;
+    min-height: 40rem;
+    background-image: url(/assets/img/BG.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container__img {
+    left: 0;
+    top: 19%;   
+    width: 100%; 
+    text-align: center;
+    
+}
+
+.container__title {
+    font-size: 32px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "UniwarsW00-Bold";
+}
+
+.linhaSection {
+    margin: 2rem 0;
+    opacity: .6;
+    color: #fff;
+    height: 2px;
+    width: 122px;
+    display: inline-block;
+    background-color: white;
+    border: 0;
+}
+
+.container__main {
+    margin: 0 auto;
+    max-width: 905px !important;
+    color: white;
+    min-height: 40rem;
+    padding: 0;
+    margin-top: -320px;
+}
+
+.main__container {
+    margin-right: 0px; 
+    margin-bottom: 20px; 
+    margin-left: 0px; 
+    padding: 0px; 
+    text-align: justify;
+}
+
+.main__textos {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
